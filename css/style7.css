@@ -1,0 +1,316 @@
+.navbar {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    transition: 0.3s ease-out;
+    padding: 5px 0;
+    z-index: 999; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/* .contact{
+    margin-top: 65px;
+    color: black;
+}
+
+.social-media{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: -5px;
+    color: black;
+}
+.footericons{
+    height: 33px;
+    display: flex;
+    justify-content: center;
+}
+.firstpic{
+    margin-right: 20px;
+}
+.secondpic{
+    margin-right: 20px;
+} */
+
+.title{
+    margin-top: 110px;
+}
+.pop_desserts{
+	border-bottom: 1px solid #2677ad;
+}
+
+body {
+	position: relative;
+	font-family:Courier, monospace;
+    background-color: #f5fcff;
+}
+.header{
+	background-image: url('https://images.pexels.com/photos/414551/pexels-photo-414551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 72vh;
+	position: relative;
+	border-bottom: 1px solid #2677ad;
+}
+.col-md-6{
+background-color: #3e96d1;
+border-radius: 15px;
+border: 2px solid #2677ad;
+}
+  .row{
+	display: flex;
+	justify-content: center;
+} 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    transition: 0.3s ease-out;
+    padding: 5px 0;
+    z-index: 999; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.navbar-brand{
+	color: #52a8e1;
+	font-weight: 380;
+}
+
+.logo-wrap img {
+    width: 54px;
+	
+}
+.logo-wrap {
+    width: 100px;
+    height: auto;
+	margin-right:  -30px;
+}
+
+.contact-1{
+color: rgb(243, 243, 243);
+margin-right: 10px;
+margin-bottom: 3px;
+}
+
+.btn{
+	background-color: #3e96d1;
+}
+
+.dessertss{
+	color: #52a8e1;
+	font-weight: 375;
+}
+.all{
+	color: #52a8e1;
+}
+
+
+
+.body-sl {
+    overflow: hidden;
+    margin: 0;/* 
+    background: url(https://media.istockphoto.com/id/1138288769/uk/%D1%84%D0%BE%D1%82%D0%BE/%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%BE-%D1%84%D1%96%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D0%B8%D0%B9-%D0%B7%D0%BD%D0%B5%D1%88%D0%BA%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9-%D1%80%D0%BE%D0%B7%D0%BC%D0%B8%D1%82%D0%B8%D0%B9-%D1%80%D1%83%D1%85-%D0%B0%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%B8%D0%B9-%D1%84%D0%BE%D0%BD.jpg?s=612x612&w=0&k=20&c=laN5Uz9CuOqdtDBn34YX3BCGyR4aunX0VfXQpyvNshQ=);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    border-bottom:1px solid #2677ad;;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    padding: 0 20px; /*0 сверху, 20 по бокам*/
+   
+}
+
+.slide{
+    height: 80vh;
+    border-radius: 20px;
+    margin: 10px; 
+    margin-top: 30px;
+    cursor: pointer;
+    color: #f2f2f2;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.slide h3{
+    position: absolute;
+    font-size: 25px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.slide.active{
+    flex: 10;
+
+}
+
+.slide.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+
+.title2{
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+.card-img-top{
+    height: 410px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #2677ad;
+}
+.card{
+    border: 1px solid #2677ad;
+}
+.col-md-3{
+    margin-bottom: 25px;
+}
+
+.bord-cont{
+    border-bottom: 1px solid #2677ad;
+}
+
+
+
+
+
+
+.desserts-info{
+
+    padding: 0;
+
+    margin-top: 40px;
+
+    text-align: center;
+
+    font-size: 1.3em;
+
+}
+
+.desserts-info-li{
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    padding: 5px 15px;
+
+    margin: 2px 0;
+
+    background-color: #52a8e1;
+
+    border-radius: 5px;
+
+    border: 1px solid #2677ad;
+
+}
+
+.desserts-info-li1{
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    padding: 5px 15px;
+
+    margin: 2px 0;
+
+    background-color: #f5fcff;
+
+    border-radius: 5px;
+
+    border: 1px solid #2677ad;
+}
+
+
+ul li a{
+
+    color: rgb(0, 0, 0);
+
+    text-decoration: none;
+
+}
+
+
+
+.desserts-container{
+
+    position: relative;
+
+    margin: 10px 20px;
+   
+
+}
+
+.desserts-view{
+
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.desserts-view.ng-animate{
+
+    transition: all ease 0.4s;
+
+    position: absolute;
+ 
+}
+
+.desserts-view.ng-enter{
+
+    top: 200px;
+
+    opacity: 0;
+    
+}
+
+.desserts-view.ng-leave,
+
+.desserts-view.ng-enter.ng-enter-active{
+
+    top: 0;
+
+    opacity: 1;
+
+}
+
+.desserts-view.ng-leave.ng-leave-active{
+
+    top: -200px;
+
+    opacity: 0;
+
+}
+
+
+.detailed{
+    margin-top: 50px;
+}
+
+.ng-binding{
+    font-size: 25px;
+}

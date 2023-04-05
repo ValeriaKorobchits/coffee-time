@@ -1,0 +1,232 @@
+body {
+	position: relative;
+	font-family:Courier, monospace;
+	background-color: #f5fcff;
+}
+.header{
+	background-image: url('https://images.pexels.com/photos/414551/pexels-photo-414551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 72vh;
+	position: relative;
+	border-bottom: 1px solid #2677ad;
+}
+.col-md-6{
+background-color: #3e96d1;
+border-radius: 15px;
+border: 2px solid #2677ad;
+}
+  .row{
+	display: flex;
+	justify-content: center;
+} 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    transition: 0.3s ease-out;
+    padding: 5px 0;
+    z-index: 999; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.navbar-brand{
+	color: #52a8e1;
+	font-weight: 380;
+}
+
+.logo-wrap img {
+    width: 54px;
+	
+}
+.logo-wrap {
+    width: 100px;
+    height: auto;
+	margin-right:  -30px;
+}
+
+.contact-1{
+color: rgb(243, 243, 243);
+margin-right: 10px;
+margin-bottom: 3px;
+}
+
+.btn{
+	background-color: #3e96d1;
+}
+
+.dessertss{
+	color: #52a8e1;
+	font-weight: 375;
+}
+
+.all{
+	color: #52a8e1;
+}
+.col-7{
+    margin-top: 100px;
+}
+.col-5{
+    margin-top: 100px;
+}
+.main-img{
+    border: 2px solid #2677ad;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.main-info{
+border-bottom: 1px solid #2677ad;
+margin-bottom: 50px;
+}
+
+
+
+
+
+.title2{
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.card-img-top{
+    height: 410px;
+    margin-bottom: 2px;
+    border-bottom: 1px solid #2677ad;
+}
+.card{
+    border: 1px solid #2677ad;
+}
+.col-md-3{
+    margin-bottom: 25px;
+}
+
+.bord-cont{
+    border-bottom: 1px solid #2677ad;
+}
+
+
+
+
+
+
+.coffee-info{
+
+    padding: 0;
+
+    margin-top: 40px;
+
+    text-align: center;
+
+    font-size: 1.3em;
+
+}
+
+.coffee-info-li{
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    padding: 5px 15px;
+
+    margin: 2px 0;
+
+    background-color: #52a8e1;
+
+    border-radius: 5px;
+
+    border: 1px solid #2677ad;
+
+}
+
+.coffee-info-li1{
+
+    list-style-type: none;
+
+    display: inline-block;
+
+    padding: 5px 15px;
+
+    margin: 2px 0;
+
+    background-color: #f5fcff;
+
+    border-radius: 5px;
+
+    border: 1px solid #2677ad;
+}
+
+
+ul li a{
+
+    color: rgb(0, 0, 0);
+
+    text-decoration: none;
+
+}
+
+
+
+.coffee-container{
+
+    position: relative;
+
+    margin: 10px 20px;
+   
+
+}
+
+.coffee-view{
+
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.coffee-view.ng-animate{
+
+    transition: all ease 0.4s;
+
+    position: absolute;
+ 
+}
+
+.coffee-view.ng-enter{
+
+    top: 200px;
+
+    opacity: 0;
+    
+}
+
+.coffee-view.ng-leave,
+
+.coffee-view.ng-enter.ng-enter-active{
+
+    top: 0;
+
+    opacity: 1;
+
+}
+
+.coffee-view.ng-leave.ng-leave-active{
+
+    top: -200px;
+
+    opacity: 0;
+
+}
+
+
+.detailed{
+    margin-top: 50px;
+}
+
+.ng-binding{
+    font-size: 25px;
+}
