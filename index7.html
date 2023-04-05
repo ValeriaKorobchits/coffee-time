@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Time</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logoo.png">
+    
+      <!-- Bootstrap CSS only -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+ -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+</head>
+<body ng-app="dessertsApp">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <div class="wrap flex">
+        <div class="logo-wrap">
+      <a class="logo" href="index.html"><img src="img/free-icon-coffee-cup-8991778.png" alt=""></a>
+    </div>
+  </div>
+      <a class="navbar-brand" href="index.html">Coffee time</a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index6.html">Coffee</a>
+          </li>
+          <li class="nav-item">
+            <a class="dessertss nav-link" href="index7.html">Desserts</a>
+          </li>
+
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Syrups
+            </a>
+            <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-light"href="index2.html">Popular syrups</a></li>
+              <li><a class="dropdown-item text-light" href="index3.html">Classic syrups</a></li>
+              <li><a class="dropdown-item text-light" href="index4.html">Fruit syrups</a></li>
+              <li><hr class="dropdown-divider text-light bg-light"></li>
+              <li><a class="all dropdown-item" href="index5.html">All syrups</a></li>
+            </ul>
+          </li>
+        </ul>
+        <h4 class="contact-1">Contact Us:</h2>
+        <a href="tel:+380501234567" class="btn text-dark">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-outbound" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+              
+              </svg>
+             +380501234567</a>
+
+      </div>
+    </div>
+  </nav>
+      <!---->
+<!-- 
+      <div class="pop_desserts">
+        <div id="gallery" class="py-5">
+          <h2 class="title text-center mb-5">Our popular dessert</h2>
+          <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://images.pexels.com/photos/4725647/pexels-photo-4725647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="text-dark">Pancakes</h2>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://nonna.com.ua/image/catalog/desertyfreshismuzi/8.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="text-dark">Tiramisu</h2>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="https://superbaker.ru/wp-content/uploads/2019/08/udc.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="text-dark">Blueberry cake</h2>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+             </div>
+          </div>
+        </div> -->
+    <!--- <div class="container text-center mt-5">
+      <h1 class="contact">Contact us:</h1>
+      
+      <a href="tel:+380501234567" class="phone text-dark">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-outbound" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+          
+          </svg>
+        +380501234567</a>
+        <p class="mt-1">plantshop@gmail.com</p>
+    
+        <p class="social-media">Our social media:</p>
+        <div class="footericons">
+            <img class="firstpic"src="img/icons8-instagram.svg" alt="">
+            <img class="secondpic"src="img/icons8-facebook.svg" alt="">
+            <img class="thirdpic"src="img/icons8-telegram-app.svg" alt="" >
+            
+        </div>
+      </div> -->
+
+
+      <h2 class="title text-center mb-5">Our popular desserts of all times</h2>
+      <div class="body-sl">
+        <div class="container">
+
+            <div class="slide" style="background-image: url(https://images.pexels.com/photos/8250745/pexels-photo-8250745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                <h3 class="text-dark">Panna cotta</h3>
+            </div>
+
+            <div class="slide" style="background-image: url(img/tiramisu.jpg);">
+                <h3 class="text-dark">Tiramisu</h3>
+            </div>
+
+            <div class="slide" style="background-image: url(https://images.pexels.com/photos/4725647/pexels-photo-4725647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                <h3 class="text-dark">Pancakes</h3>
+            </div>
+
+            <div class="slide" style="background-image: url(https://images.pexels.com/photos/7966067/pexels-photo-7966067.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+                <h3 class="text-dark">Cupckes</h3>
+            </div>
+
+            <div class="slide" style="background-image: url(https://media.istockphoto.com/id/1325765855/uk/%D1%84%D0%BE%D1%82%D0%BE/%D1%88%D0%BC%D0%B0%D1%82%D0%BE%D1%87%D0%BE%D0%BA-%D1%81%D0%BC%D0%B0%D1%87%D0%BD%D0%BE%D0%B3%D0%BE-%D1%87%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BE%D0%BA%D1%81%D0%B0%D0%BC%D0%B8%D1%82%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D1%82%D0%BE%D1%80%D1%82%D0%B0-%D0%BD%D0%B0-%D1%82%D0%B0%D1%80%D1%96%D0%BB%D1%86%D1%96.jpg?s=612x612&w=0&k=20&c=vFBdNB_fRscd8Lw6en2-IJRFjSvrIS9ov-JRt_o9xX8=);">
+                <h3 class="text-dark">Red velvet</h3>
+            </div>
+        </div>
+    </div>
+
+
+<h2 class="title2 text-center">All desserts</h2>
+<div class="bord-cont">
+   <div class="container">
+<div class="row py-5">
+
+  <div class="col-md-3"> 
+    <div class="card">
+      <img src="https://images.pexels.com/photos/4099124/pexels-photo-4099124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Cupcakes</h5>
+      <p class="card-text">Price: {{40 | currency:'UAH'}}</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="col-md-3"> 
+    <div class="card">
+      <img src="https://images.pexels.com/photos/3323686/pexels-photo-3323686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Cheesecake</h5>
+      <p class="card-text">Price: {{75 | currency:'UAH'}}</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="col-md-3"> 
+    <div class="card">
+      <img src="https://static.vkusnyblog.com/full/uploads/2013/02/red-velvet-cake.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Red velvet</h5>
+      <p class="card-text">Price: {{80 | currency:'UAH'}}</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="col-md-3"> 
+    <div class="card">
+      <img src="https://images.pexels.com/photos/8625954/pexels-photo-8625954.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Macaron</h5>
+      <p class="card-text">Price: {{35 | currency:'UAH'}}</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="col-md-3"> 
+    <div class="card">
+      <img src="https://images.pexels.com/photos/14766327/pexels-photo-14766327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tiramisu</h5>
+      <p class="card-text">Price: {{75 | currency:'UAH'}}</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="col-md-3"> 
+    <div class="card">
+      <img src="https://images.pexels.com/photos/11397866/pexels-photo-11397866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Panna Cotta</h5>
+      <p class="card-text">Price: {{80 | currency:'UAH'}}</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="col-md-3"> 
+    <div class="card">
+      <img src="https://images.pexels.com/photos/2965413/pexels-photo-2965413.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Pancakes</h5>
+      <p class="card-text">Price: {{75 | currency:'UAH'}}</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+  <div class="col-md-3"> 
+    <div class="card">
+      <img src="https://images.pexels.com/photos/1332267/pexels-photo-1332267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Ice cream</h5>
+      <p class="card-text">Price: {{80 | currency:'UAH'}}</p>
+      </div>
+    </div>
+  </div>
+  <!---->
+</div>
+</div>
+</div>
+
+ <!-- JavaScript Bundle with Popper -->
+
+
+
+ <script type="text/ng-template" id="index7.html">
+  <h2>{{dessert.info}}</h2>
+</script>
+<h2 class="detailed text-center">Detailed information about our desserts</h2>
+<ul class="desserts-info">
+  <li class="desserts-info-li"><a href="#!/cupcakes">Cupcakes</a></li>
+  <li class="desserts-info-li1"><a href="#!/cheesecake">Cheesecake</a></li>
+  <li class="desserts-info-li"><a href="#!/redvelvet">Red velvet</a></li>
+  <li class="desserts-info-li1"><a href="#!/macaron">Macaron</a></li>
+  <li class="desserts-info-li"><a href="#!/tiramisu">Tiramisu</a></li>
+  <li class="desserts-info-li1"><a href="#!/pannacotta">Panna Cotta</a></li>
+  <li class="desserts-info-li"><a href="#!/pancakes">Pancakes</a></li>
+  <li class="desserts-info-li1"><a href="#!/icecream">Ice cream</a></li>
+</ul>
+<div class="desserts-container">
+  <div class="desserts-view" ng-view></div>
+</div>
+
+ <script src="https://kit.fontawesome.com/81d4cfa052.js" crossorigin="anonymous"></script>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
+    <script src="main.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+      </body>
+      </html>
